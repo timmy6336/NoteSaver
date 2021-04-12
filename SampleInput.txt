@@ -1,0 +1,20 @@
+All sample inputs were tested on a Windows 10 PowerShell.
+Side notes assume every command is run in order.
+Add Examples:
+node app.js add --title="Goals" --Body="Task1, Task2, Task3" // successful
+node app.js add --title="Goals 2" --Body="Task1, Task2, Task3" // successful
+node app.js add --title="Goals" --Body="Task1, Task2, Task3" // Error
+node app.js add --Body="Task1, Task2, Task3" // Error
+node app.js add --title="Goals"//Error
+List Examples: 
+node app.js list// successful
+Read Examples:
+node app.js read --title="Goals"//successful
+node app.js remove --title"Goals 1"// Error 
+Remove Examples:"
+node app.js remove --title"Goals"// successful 
+node app.js remove --title"Goals 1"// Error
+node app.js remove --title"Goals"// Error
+node app.js remove --title"Goals 2"// successful  
+
+node app.js list// Error
